@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Grades {
-    class GradeBook {
+    public class GradeBook {
 
         public GradeBook() {
 
