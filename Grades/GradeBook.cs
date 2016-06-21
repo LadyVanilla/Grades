@@ -42,7 +42,6 @@ namespace Grades {
         }
 
         public string Name {
-
             get {
 
                 return _name;
@@ -53,7 +52,7 @@ namespace Grades {
 
                     throw new ArgumentNullException("Name cannot be null or empty");
                 }
-                
+
                 if (_name != value && NameChanged != null) {
 
                     NameChangedEventArgs args = new NameChangedEventArgs();

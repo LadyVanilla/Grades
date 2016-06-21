@@ -44,7 +44,7 @@ namespace Grades {
                 if (AverageGrade >= 90) {
 
                     result = "A";
-                } else if(AverageGrade >= 80) {
+                } else if (AverageGrade >= 80) {
 
                     result = "B";
                 } else if (AverageGrade >= 70) {
