@@ -68,7 +68,7 @@ namespace Grades.Tests.Types {
         }
 
         private void GiveBookAName(GradeBook book) {
-            
+
             book.Name = "A Gradebook";
         }
 
